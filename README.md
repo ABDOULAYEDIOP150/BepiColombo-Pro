@@ -420,3 +420,5 @@ BepiColombo-Pro/
 ├── README.md
 ├── requirements.txt
 └── streamlit_app.py
+![CI](https://github.com/ABDOULAYEDIOP150/BepiColombo-Pro/actions/workflows/ci.yml/badge.svg)
+![Docker](https://github.com/ABDOULAYEDIOP150/BepiColombo-Pro/actions/workflows/docker.yml/badge.svg)
