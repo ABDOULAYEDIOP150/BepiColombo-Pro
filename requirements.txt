@@ -1,4 +1,7 @@
 numpy
 scipy
 xarray
+matplotlib
 pytest
+streamlit
+scikit-learn
