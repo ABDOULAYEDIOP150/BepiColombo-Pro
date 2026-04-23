@@ -1,6 +1,6 @@
 # BepiColombo DBSC – Pipeline de validation réaliste
 
-## 🚀 TL;DR (Résumé rapide)
+## Résumé
 
 Pipeline de calibration de données instrumentales inspiré de la mission spatiale **BepiColombo (ESA / JAXA)**.
 
