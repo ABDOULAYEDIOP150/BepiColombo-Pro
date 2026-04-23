@@ -325,8 +325,10 @@ Un signal peut être :
 
 mais malgré cela sortir des plages physiques admissibles.  
 La validation contrôle donc la **cohérence physique** du résultat final.
+
+
 NB : A choisir sur la base d'une référence.
----
+
 
 ## 4.6. Comparaison inter-instruments – DBSC vs MAG
 
