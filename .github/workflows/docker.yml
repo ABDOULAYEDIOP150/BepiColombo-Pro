@@ -16,3 +16,20 @@ jobs:
 
       - name: Build image Docker
         run: docker build -t bepi_pipeline .
+
+      - name: Run container
+        run: docker run -d --name bepi_container -p 8501:8501 bepi_pipeline
+
+      - name: Attendre le démarrage de Streamlit
+        run: sleep 15
+
+      - name: Vérifier que l'application répond
+        run: curl -f http://localhost:8501
+
+      - name: Afficher les logs si échec
+        if: failure()
+        run: docker logs bepi_container
+
+      - name: Arrêter le conteneur
+        if: always()
+        run: docker stop bepi_container && docker rm bepi_container
