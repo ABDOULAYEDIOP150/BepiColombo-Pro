@@ -1,5 +1,33 @@
 # BepiColombo DBSC – Pipeline de validation réaliste
 
+## 🚀 TL;DR (Résumé rapide)
+
+Pipeline de calibration de données instrumentales inspiré de la mission spatiale **BepiColombo (ESA / JAXA)**.
+
+Ce projet implémente les étapes clés d’un traitement scientifique :
+
+- Analyse fréquentielle (FFT)
+- Filtrage du signal (Butterworth, Savitzky-Golay, Combo)
+- Calibration (suppression de dérive + correction instrumentale)
+- Validation physique des données
+- Comparaison inter-instruments (DBSC vs MAG)
+
+🎯 **Objectif :** reproduire un pipeline réaliste de calibration de données issues d’instruments spatiaux.
+
+---
+
+## 🎯 Alignement avec le poste
+
+Ce projet répond directement aux problématiques du poste :
+
+- Calibration de l’instrument DBSC  
+- Validation de la qualité des données  
+- Comparaison entre instruments  
+- Automatisation du traitement  
+- Structuration d’un pipeline scientifique en Python  
+
+---
+
 ## 1. Vue d’ensemble du projet
 
 Ce projet propose un pipeline complet de traitement et de validation de signaux simulés dans un contexte spatial et instrumental inspiré de **BepiColombo DBSC / MAG**.
